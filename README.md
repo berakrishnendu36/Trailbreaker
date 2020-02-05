@@ -5,21 +5,21 @@ A line follower
 
 GND:GND
 
-D0:38
+D0:A0
 
-D1:40
+D1:A1
 
-D2:42
+D2:13
 
-D3:44
+D3:12
 
-D4:46
+D4:11
 
-D5:48
+D5:10
 
-D6:50
+D6:8
 
-D7:52
+D7:2
 
 VCC:5v
 
@@ -27,19 +27,19 @@ VCC:5v
 
 # LEFT:
 
-ENA: A0
+LPWM: ~9
 
-EN1: 03
+LP1: 7
 
-EN2: 04
+LP2: 6
 
 # RIGHT:
 
-ENB: A2
+RPWM: ~3
 
-EN3: 05
+RP1: 4
 
-EN4: 06
+RP2: 5
 
 POWER: 12V in ARD VIN
 
